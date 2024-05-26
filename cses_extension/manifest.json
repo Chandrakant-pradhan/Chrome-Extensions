@@ -1,0 +1,18 @@
+{
+    "name":"cses info",
+    "description":"An Extension to see number of problems solved in cses",
+    "version":"1.0",
+    "manifest_version": 3,
+    "action": {
+        "default_icon": "logo.png"
+    },
+    "content_scripts": [
+          {
+            "js": ["scripts/content.js"],
+            "matches": [
+                "https://cses.fi/problemset/"
+            ]
+          }
+    ]
+      
+}
